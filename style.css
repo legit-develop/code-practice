@@ -4,26 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
     align-items: center;
-}
-
-input {
-    visibility: hidden;
-}
-
-.label {
-    position: absolute;
-    width: 80px;
-    height: 40px;
-    background: lightgray;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-@keyframes taggleOff {
-    0% {
-        transform: translateX(40px)
-    }
-    100% {
-        transform: translateX(0)
-    }
+    background: #000;
+    color: lightgray;
+    font-family: cursive;
 }
