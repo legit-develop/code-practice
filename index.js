@@ -1,16 +1,6 @@
-const counterEl = document.querySelector('.counter');
-console.log(counterEl);
-const barEl = document.querySelector('.loading-bar-front');
-console.log(barEl);
-
-let idx = 0;
-updateNum()
-
-function updateNum() {
-    counterEl.innerText = `${idx}%`
-    barEl.style.width = `${idx}%`
-    idx++
-    if(idx < 101) {
-        setTimeout(updateNum, 20)
-    }
-}
+const monthNameEl = document.getElementById("month-name");
+console.log(monthNameEl);
+const dayNameEl = document.getElementById("day-name");
+console.log(dayNameEl);
+const dayNumEl = document.getElementById("day-number");
+console.log(dayNumEl);
