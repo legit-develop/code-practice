@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.booklist {
+  width: 80vw;
+  background: lightgray;
+  margin: 10px auto 20px auto;
+}
+
+h2 {
+  color: lightcoral;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h3 {
+  color: black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.book {
+  margin-bottom: 20px;
+}
